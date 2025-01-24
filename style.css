@@ -60,6 +60,7 @@ nav a:hover{
 
 .containerProdutos{
 display: flex;
+flex:1;
 justify-content: space-around;
 }
 .Produtos {
@@ -119,9 +120,12 @@ font-size:18px;
 footer{
     text-align:center;
 	background: rgb(0,0,0);
-    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 77%, rgba(14,64,2,1) 100%);
+        background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 77%, rgba(14,64,2,1) 100%);
 	padding: 10px 0;
 	max-height: 150px;
+	position:fixed;
+	bottom:0;
+	width:100%;
 	
 }
 .imgFooter{

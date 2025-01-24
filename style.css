@@ -279,7 +279,7 @@ nav ul li a{
 }
 
 footer{
-	width:100%;
+	width:100vw;
 	position:fixed;
 	bottom:0;
 	

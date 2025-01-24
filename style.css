@@ -279,8 +279,9 @@ nav ul li a{
 }
 
 footer{
-	width:100vw;
-	position: absolute;
+	width:100%;
+	position:fixed;
+	bottom:0;
 	
 	
 }
